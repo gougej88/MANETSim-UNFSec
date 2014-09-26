@@ -5,7 +5,7 @@ package com.main;
  */
 public class Content {
     //right now each node can only hold 1 piece of content
-    int NodeCustodian;
+    int contentID;
     String content;
 
     public Content()
@@ -13,14 +13,14 @@ public class Content {
 
     }
 
-    public void AddContent(int NodeCustodian, String content)
+    public void addContent(int contentID, String content)
     {
-        this.NodeCustodian = NodeCustodian;
+        this.contentID = contentID;
         this.content = content;
     }
 
 
-    public String showContent(int NodeCustodian)
+    public String showContent(int ContentID)
     {
         //Show the content stored on the node
         return content;
