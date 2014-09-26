@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17a53fc9-a193-4b55-ba5a-a0362348aa32" name="Default" comment="Updates">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/main/Content.java" afterPath="$PROJECT_DIR$/src/com/main/Content.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/main/Main.java" afterPath="$PROJECT_DIR$/src/com/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/main/Node.java" afterPath="$PROJECT_DIR$/src/com/main/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="17a53fc9-a193-4b55-ba5a-a0362348aa32" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MANETSim.iws" />
@@ -82,8 +78,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="2198" />
+    <option name="y" value="10" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -327,11 +323,16 @@
       <created>1411587091676</created>
       <updated>1411587091676</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updates">
+      <created>1411749865251</created>
+      <updated>1411749865251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="2198" y="10" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
