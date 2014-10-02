@@ -11,13 +11,21 @@ public class Main {
         Database db = sparksee.create("HelloSparksee.gdb", "HelloSparksee");
         Session sess = db.newSession();
         Graph graph = sess.getGraph();
+
+
+
         // Use 'graph' to perform operations on the graph database
+        int nodeType = graph.newNodeType("Node");
+        int nodeID = graph.newAttribute(nodeType, "ID", DataType.Long, AttributeKind.Unique);
+        int nodeBatteryLifeRemaining = graph.newAttribute(nodeType, "BatteryLifeRemaining", DataType.Integer, AttributeKind.Indexed);
+
+
         sess.close();
         db.close();
         sparksee.close();
 
         //Create graph grid of nodes
-        Node a = new Node(1);
+        //Node a = new Node(1);
 
         //Start at outside node
 

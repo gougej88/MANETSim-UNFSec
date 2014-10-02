@@ -8,7 +8,6 @@ import java.util.Hashtable;
 public class Node {
     int nodeID;
     int batteryLifeRemaining;
-    int[] routes;
     Content[] content;
     Hashtable cache = new Hashtable(10);
     Hashtable contentCustodians;
