@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sparkseejava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/sparkseejava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
