@@ -5,7 +5,8 @@ public class Main {
 
     public static void main(String[] args) throws java.io.IOException, java.lang.Exception {
         // write your code here
-        SparkseeProperties.load("C:\\Users\\Jeff\\IdeaProjects\\MANETSim-UNFSec\\lib\\sparksee.cfg");
+        //SparkseeProperties.load("C:\\Users\\Jeff\\IdeaProjects\\MANETSim-UNFSec\\lib\\sparksee.cfg");
+        SparkseeProperties.load("C:\\Users\\n00430588\\IdeaProjects\\MANETSim\\lib\\sparksee.cfg");
         SparkseeConfig cfg = new SparkseeConfig();
         Sparksee sparksee = new Sparksee(cfg);
         Database db = sparksee.create("HelloSparksee.gdb", "HelloSparksee");
