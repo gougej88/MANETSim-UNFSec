@@ -16,9 +16,14 @@ public class Main {
 
 
         // Use 'graph' to perform operations on the graph database
+        //Create Node Structure
         int nodeType = graph.newNodeType("Node");
         int nodeID = graph.newAttribute(nodeType, "ID", DataType.Long, AttributeKind.Unique);
         int nodeBatteryLifeRemaining = graph.newAttribute(nodeType, "BatteryLifeRemaining", DataType.Integer, AttributeKind.Indexed);
+
+        //Create Undirected edges
+        int routeType = graph.newEdgeType("route",false,false);
+        int routeWeight = graph.newAttribute(routeType, "weight", DataType.Integer, AttributeKind.Basic);
 
 
         sess.close();
