@@ -65,8 +65,14 @@ public class Main {
         test.run();
         double hops = test.getCost();
 
-        System.out.printf("Cost %.0f", hops);
-
+        System.out.printf("Cost %.0f \n", hops);
+        OIDList pathAsNodes = test.getPathAsNodes();
+        OIDListIterator pathIt = pathAsNodes.iterator();
+        while (pathIt.hasNext())
+        {
+            long nodeid = pathIt.next();
+            System.out.println("Node: "+nodeid);
+        }
 
         test.close();
         sess.close();
